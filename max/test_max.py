@@ -23,5 +23,8 @@ def test_max(max):
 def test_maxRecursive(max):
     assert_test(max.maxRecursive)
 
-def maxListMod(max):
+def test_maxListMod(max):
     assert_test(max.maxListMod)
+
+def test_maxNOne(max):
+    assert_test(max.maxNOne)
